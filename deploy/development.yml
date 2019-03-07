@@ -1,0 +1,5 @@
+version: '2'
+services:
+  ad-codegen:
+    environment:
+      - "SPRING_PROFILES_ACTIVE=dev"

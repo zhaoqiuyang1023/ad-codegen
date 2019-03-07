@@ -1,0 +1,5 @@
+version: '2'
+services:
+  ad-ws-mail:
+    environment:
+      - "SPRING_PROFILES_ACTIVE=euprod"
